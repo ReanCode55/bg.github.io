@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-size: cover;
+    background: url(./background.jpg) no-repeat center top;
+    background-size: cover;
+    position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .content .logo{
+        width: 130px;
+        height: 130px;
+        margin: 40px auto 0px;
+    
+    }
+    .content .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .poster{
+        width: 100%;
+        margin: 20px auto 0px;
+        padding: 10px;
+    }
+    .content .poster img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .link-web{
+        width: 100%;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    .content .link-web img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .link-social,
+    .content .link-download{
+        width: 100%;
+        padding: 20px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content .link-social img{
+        width: 90%;
+        height: 100%;
+    }
+    .content .link-download img{
+        width: 90%;
+        height: 100%;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .content .logo{
+        width: 140px;
+        height: 140px;
+        margin: 40px auto 0px;
+    
+    }
+    .content .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .poster{
+        width: 70%;
+        margin: 20px auto 0px;
+        padding: 10px;
+    }
+    .content .poster img{
+        width: 100%;
+        height: 90%;
+    }
+    .content .link-web{
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    .content .link-web img{
+        width: 100%;
+        height: 100%;
+    }
+    .content .link-social,
+    .content .link-download{
+        width: 100%;
+        padding: 20px;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .content .link-social img{
+        width: 90%;
+        height: 100%;
+    }
+    .content .link-download img{
+        width: 90%;
+        height: 100%;
+    }
+}
